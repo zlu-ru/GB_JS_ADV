@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 50px;
+  border-bottom: 1px solid gray;
+}
+
+.cart-button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 10px 20px 10px auto;
+  display: block;
+  background-color: gray;
+  color: white;
+  border: none;
+}
+
+.cart-button:hover {
+  color: rgb(224, 220, 220);
+}
+
+main {
+  margin: auto 50px;
+}
+
+.goods-list {
+  display: grid;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.goods-item {
+  padding: 10px;
+  background-color: gainsboro;
+}
+
